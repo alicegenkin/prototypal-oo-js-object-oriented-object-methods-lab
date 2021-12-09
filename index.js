@@ -1,7 +1,7 @@
-function BoardMember(name, homeState, training){
-  this.name = name
-  this.homeState = homeState
-  this.training = training
+function BoardMember(name, homeState, training) {
+  this.name = name;
+  this.homeState = homeState;
+  this.training = training;
 }
 
 BoardMember.prototype.veto = function(){
@@ -23,6 +23,8 @@ BoardMember.prototype.releasePressStatement = function(){
 BoardMember.prototype.sayHi = function(){
   return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
 }
+
+
 
 //A constructor is a function that creates an instance of a class which is typically called an “object”. 
 //In JavaScript, a constructor gets called when you declare an object using the new keyword. 
